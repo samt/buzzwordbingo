@@ -1,3 +1,3 @@
 <?php
 
-echo `git fetch origin master && git rebase`;
+echo `git pull origin master`;
