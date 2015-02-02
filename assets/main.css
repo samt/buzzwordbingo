@@ -1,0 +1,42 @@
+td, th {
+	padding: 10px 5px;
+	border: 1px solid whitesmoke;
+	width: 20%;
+	box-sizing: border-box;
+}
+
+td {
+	height: 100px;
+	cursor: pointer;
+}
+
+td.marked {
+	background-color: #faa;
+}
+
+body {
+	padding-bottom: 30px;
+}
+
+.controls {
+	margin: 20px 0;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.game {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.sep {
+	margin: 50px 0;
+	border-color: whitesmoke;
+	border-style: solid;
+	border-width: 1px;
+	border-bottom: 0;
+}
