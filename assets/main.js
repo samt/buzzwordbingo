@@ -131,7 +131,11 @@ window.words = [
 	'Good Process&trade;',
 	'Integrate',
 	'Vagrant',
-	'Employ'
+	'Employ',
+	'Server-side JavaScript',
+	'Basset Hounds',
+	'Refactor',
+	'Automagically'
 ];
 
 $(function () {
@@ -154,9 +158,17 @@ $(function () {
 
 	$('.restart').on('click', function () {
 		var bingo = [];
+		var word;
 
-		for (var i = 0; i < 25; i++) {
-			bingo.push(window.words[ Math.floor(Math.random() * window.words.length) ]);
+		for (var i = 0; i < 25; ++i) {
+			word = window.words[ Math.floor(Math.random() * window.words.length) ];
+
+			if (bingo.indexOf(word) !== -1) {
+				--i;
+				continue;
+			}
+
+			bingo.push(word);
 		}
 
 		$('.game').find('td').each(function (i, val) {
