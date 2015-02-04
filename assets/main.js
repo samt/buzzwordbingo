@@ -2,6 +2,7 @@
 */
 
 window.words = [
+	// general
 	'Alignment',
 	'At the end of the day',
 	'Buzzword',
@@ -26,7 +27,8 @@ window.words = [
 	'Synergy',
 	'Touch base',
 	'Wellness',
-	'Winn-win',
+
+	// business
 	'Analytics',
 	'Bandwidth',
 	'Best practices',
@@ -56,7 +58,7 @@ window.words = [
 	'Management Visibility',
 	'New economy',
 	'Next generation',
-	'Quick-Winn',
+	'Quick-Win',
 	'Return on Investment',
 	'Share options',
 	'Shoot',
@@ -66,6 +68,8 @@ window.words = [
 	'Storytelling',
 	'Strategy',
 	'Visibility',
+
+	// computer/tech
 	'Agile',
 	'Ajax',
 	'Algorithm',
@@ -112,30 +116,28 @@ window.words = [
 	'Web services',
 	'Wikiality',
 	'Workflow',
+
 	// moar
-	'Creative',
-	'Autodesk',
-	'PHP',
-	'JavaScript',
 	'JVM',
 	'HHVM',
 	'Hack',
 	'Facebook',
-	'Chris! Hey Chris!',
 	'React',
 	'Angular',
-	'Node.js',
-	'NPM',
 	'Winning',
-	'AWS',
-	'Good Process&trade;',
 	'Integrate',
-	'Vagrant',
 	'Employ',
-	'Server-side JavaScript',
-	'Basset Hounds',
 	'Refactor',
-	'Automagically'
+	'Automagically',
+	'Good Process&trade;',
+	'Systematic',
+	'In A Nutshell',
+	'Sunsetting',
+
+	// specific
+	'Basset Hounds',
+	'Chris! Hey Chris!',
+	'Winn-win'
 ];
 
 $(function () {
