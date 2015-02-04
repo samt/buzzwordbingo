@@ -32,7 +32,7 @@ window.words = [
 	'Analytics',
 	'Bandwidth',
 	'Best practices',
-	'Boil the ocean',
+//	'Boil the ocean',
 //	'Buzzword compliant',
 	'Cloud computing',
 //	'Come-to-Jesus moment',
@@ -118,11 +118,9 @@ window.words = [
 	'Workflow',
 
 	// moar
-	'JVM',
 	'HHVM',
 	'Hack',
 	'React',
-	'Angular',
 //	'Winning',
 //	'Integrate',
 //	'Employ',
@@ -135,10 +133,14 @@ window.words = [
 //	'Growth Hacking',
 	'Asset',
 	'Front-end',
+	'Unit Testing',
+	'* Pattern',
+	'Structure',
+	'Infrastructure',
+	'Stack',
+	'Technical Debt',
 
 	// specific
-	'Basset Hounds',
-	'Chris! Hey Chris!',
 	'Winn-win'
 ];
 
