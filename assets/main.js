@@ -118,7 +118,7 @@ window.words = [
 	'Workflow',
 
 	// moar
-	'HHVM',
+//	'HHVM',
 	'Hack',
 	'React',
 //	'Winning',
@@ -134,7 +134,7 @@ window.words = [
 	'Asset',
 	'Front-end',
 	'Unit Testing',
-	'* Pattern',
+	'Pattern',
 	'Structure',
 	'Infrastructure',
 	'Stack',
