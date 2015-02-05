@@ -134,11 +134,18 @@ window.words = [
 	'Asset',
 	'Front-end',
 	'Unit Testing',
-	'Pattern',
+//	'Pattern',
 	'Structure',
 	'Infrastructure',
-	'Stack',
+//	'Stack',
 	'Technical Debt',
+	'Boilerplate',
+	'Deploy',
+//	'Microservices',
+//	'Metadata',
+	'Optimize',
+	'TDD',
+	'Coverage',
 
 	// specific
 	'Winn-win'
